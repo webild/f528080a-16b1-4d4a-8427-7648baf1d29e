@@ -65,7 +65,7 @@ export default function Home() {
           logoAlt="MySite Logo"
           logoText="MySite"
           className="footer-class"
-          logoClassName="footer-logo-class"
+          svgClassName="footer-logo-class"
         />
       </div>
     </SiteThemeProvider>
