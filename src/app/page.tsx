@@ -13,7 +13,8 @@ export default function Home() {
       <NavbarLayoutFloatingOverlay
         navItems={[{ name: 'hero', id: 'hero' }, { name: 'about', id: 'about' }, { name: 'how-to-buy', id: 'how-to-buy' }, { name: 'tokenomics', id: 'tokenomics' }, { name: 'footer', id: 'footer' }]}
         logoSrc="/images/logo.svg"
-        logoAlt="MySite Logo"
+        logoWidth={100}
+        logoHeight={50}
         buttonText="Join Now"
         onButtonClick={() => { console.log('Button Clicked'); }}
       />
